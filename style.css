@@ -251,6 +251,7 @@ header ul li a:hover, a.active {
     }
     .imgBx img {
         margin-top: -40px;
-        max-width: 440px;
+        max-width: 350px;
+        animation: animate 3.5s linear infinite;
     }
 }
