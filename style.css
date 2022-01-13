@@ -14,7 +14,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/bg2.jpg);
+    background: url(/galaxybg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -25,7 +25,7 @@ section {
     width: calc(100% - 100px);
     height: calc(100vh - 280px);
     min-height: 550px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.65);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     display: flex;
@@ -52,7 +52,9 @@ header {
 }
 header .logo {
     font-family: 'squid game';
-    color: #8a2435;
+    -webkit-text-stroke: 1px #390390;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    font-size: 2.5rem;
     text-decoration: none;
     font-size: 2em;
     font-weight: 700;
@@ -67,8 +69,8 @@ header ul li {
 header ul li a {
     text-decoration: none;
     /* font-family: 'squid game'; */
-    font-weight: 500;
-    color: #8a2435;
+    font-weight: 700;
+    color: #1d004d;
     padding: 8px 15px;
     border-radius: 25px;
 }
@@ -83,7 +85,6 @@ header ul li a:hover, a.active {
 .content {
     transform: translateX(-100px);
     max-width: 700px;
-    /* max-height: 550px; */
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     backdrop-filter: blur(10px);
@@ -97,17 +98,17 @@ header ul li a:hover, a.active {
     /* font-family: 'squid game'; */
     font-size: 2.5em;
     margin-bottom: 10px;
-    color: #8a2435;
+    color: #390390;
 }
 .content p {
     font-size: 1.2em;
-    color: #8a2435;
+    color: #1d004d;
 }
 .content a {
     display: inline-block;
     padding: 15px 30px;
     background: #fff;
-    color: #8a2435;
+    color: #1d004d;
     margin-top: 20px;
     border-radius: 30px;
     font-size: 1.2em;
@@ -117,7 +118,7 @@ header ul li a:hover, a.active {
 }
 .imgBx img {
     margin-top: -60px;
-    max-width: 350px;
+    max-width: 1000px;
     animation: animate 5s linear infinite;
 }
 @keyframes animate {
@@ -164,7 +165,8 @@ header ul li a:hover, a.active {
     position: absolute;
     bottom: 50px;
     left: 50px;
-    color: #8a2435;
+    color: #390390;
+    /* font-weight: bold; */
 }
 
 @media screen and (max-width: 1200px) {
@@ -249,6 +251,6 @@ header ul li a:hover, a.active {
     }
     .imgBx img {
         margin-top: -40px;
-        max-width: 300px;
+        max-width: 500px;
     }
 }
