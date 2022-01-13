@@ -96,22 +96,22 @@ header ul li a:hover, a.active {
 }
 .content h2 {
     /* font-family: 'squid game'; */
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-bottom: 10px;
     color: #390390;
 }
 .content p {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #1d004d;
 }
 .content a {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 12px 20px;
     background: #fff;
     color: #1d004d;
     margin-top: 20px;
     border-radius: 30px;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 500;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
